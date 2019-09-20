@@ -1,0 +1,125 @@
+{
+  "patient": [
+    {
+      "name": "tombra aremiye",
+      "email": "ebiaremieye@gmail.com",
+      "phone": "789",
+      "dob": "2019-09-10",
+      "id": 7
+    },
+    {
+      "name": "tombra aremiye",
+      "email": "etomaremieye@gmail.com",
+      "phone": "32121",
+      "dob": "2019-09-05",
+      "id": 8
+    },
+    {
+      "name": "Tombra John",
+      "email": "tom@gmail.com",
+      "phone": "6556",
+      "dob": "",
+      "id": 9
+    },
+    {
+      "name": "Ebi aremieye",
+      "email": "etomaremieye@gmail.com",
+      "phone": "33333333333",
+      "dob": "2019-09-03",
+      "med1": "Yes",
+      "id": 10
+    },
+    {
+      "name": "Tombra John",
+      "email": "etomaremieye@gmail.com",
+      "phone": "2435353553",
+      "dob": "2019-09-20",
+      "med1": "Yes",
+      "id": 11
+    },
+    {
+      "name": "Bibi aremieye",
+      "email": "bibiaremieye@gmail.com",
+      "phone": "32332442442",
+      "dob": "2019-09-19",
+      "med1": "Yes",
+      "id": 12
+    },
+    {
+      "name": "Bibi aremieye",
+      "email": "bibiaremieye@gmail.com",
+      "phone": "434444",
+      "dob": "2019-09-14",
+      "med1": "No",
+      "id": 13
+    },
+    {
+      "name": "Ebi aremieye",
+      "email": "ebiaremieye@gmail.com",
+      "phone": "1232123",
+      "dob": "2019-09-13",
+      "med1": "No",
+      "allergy": "No",
+      "gender": "Male",
+      "tob": "No",
+      "id": 14
+    },
+    {
+      "name": "Tombra John",
+      "email": "etomaremieye@gmail.com",
+      "phone": "45555555555555",
+      "dob": "2019-09-06",
+      "other": "Very Healthy",
+      "med1": "No",
+      "allergy": "No",
+      "gender": "Male",
+      "tob": "No",
+      "id": 15
+    },
+    {
+      "name": "Ego Oyinbo",
+      "email": "koko@gmail.com",
+      "phone": "12345",
+      "dob": "2019-09-19",
+      "other": "Very Healthy",
+      "med1": "No",
+      "allergy": "No",
+      "gender": "Female",
+      "tob": "No",
+      "id": 16
+    },
+    {
+      "name": "Ere Aremieye",
+      "email": "ere@gmail.com",
+      "phone": "333333333",
+      "dob": "2019-09-02",
+      "id": 17
+    },
+    {
+      "name": "Joseph Amakiri",
+      "email": "joseph@gmail.com",
+      "phone": "345345",
+      "dob": "2019-09-20",
+      "other": "Very Healthy",
+      "med1": "No",
+      "allergy": "No",
+      "gender": "Male",
+      "tob": "No",
+      "id": 18
+    }
+  ],
+  "sign": [
+    {
+      "name": "Bibi aremieye",
+      "email": "bibiaremieye@gmail.com",
+      "password": "bibi",
+      "id": 1
+    },
+    {
+      "name": "Savvyp John",
+      "email": "savvyp@gmail.com",
+      "password": "savvyp",
+      "id": 3
+    }
+  ]
+}

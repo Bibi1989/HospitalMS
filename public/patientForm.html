@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HMS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- navbar section -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">HMS</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                      <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="home.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="patientForm.html">Patient Form</a>
+                        <a class="nav-item nav-link" href="details.html">Patient Details</a>
+                        <a class="nav-item nav-link" href="index.html">Log Out</a>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="show-alert" id="insert-result">
+        <!-- Read & view file -->
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col my-4">
+                    <h1 class="text-success text-center">PATIENTS CHECK IN FORM</h1>
+                    <form id="form">
+                        <div class="form-group">
+                            <label for="names">Full Names</label>
+                            <input type="text" class="form-control" id="names" aria-describedby="emailHelp" placeholder="Enter Full Name..">
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email address</label>
+                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                          <label for="password">Phone Number</label>
+                          <input type="number" class="form-control" id="phone" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date Of Birth</label>
+                            <input type="date" class="form-control" id="date" placeholder="Date Of Birth">
+                        </div>
+
+
+                        <h3 class="text-center text-success my-4">Reasons for Checking in</h3>
+                        <div class="form-group form-check pl-0">
+                            <label class="form-check-label my-2" for="other">Reasons and Symptoms</label>
+                            <input type="text" class="form-control" id="other" placeholder="Reasons and Symptom">
+                        </div>
+                        
+
+
+                        <p class="text-danger mt-4">Are you currently taking any medication?</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="medication" id="med1" value="Yes">
+                            <label class="form-check-label" for="med1">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="medication" id="med2" value="No">
+                            <label class="form-check-label" for="med2">No</label>
+                        </div>
+
+                        <p class="text-danger mt-4">Do you have any medication allergies?</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="allergy" id="allergy1" value="Yes">
+                            <label class="form-check-label" for="allergy1">Yes</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="allergy" id="allergy2" value="No">
+                            <label class="form-check-label" for="allergy2">No</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="allergy" id="allergy3" value="Not sure">
+                            <label class="form-check-label" for="allergy3">Not Sure</label>
+                        </div>
+
+                        <p class="text-danger mt-4">Gender</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="gend1" value="Male">
+                            <label class="form-check-label" for="gend1">Male</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender" id="gend2" value="Female">
+                            <label class="form-check-label" for="gend2">Female</label>
+                        </div>
+
+                        <p class="text-danger mt-4">Do you use or do you have history of using tobacco?</p>
+                        <div class="form-group col-md-4">
+                            <label for="tob?">State</label>
+                            <select id="tob" class="form-control">
+                              <option value="No" selected>No</option>
+                              <option value="Yes">Yes</option>
+                            </select>
+                        </div>
+
+                        <p class="text-danger mt-4">Do you use or do you have history of using illegal drugs?</p>
+                        <div class="form-group col-md-4">
+                            <label for="drug">State</label>
+                            <select id="drug" class="form-control">
+                              <option value="No" selected>No</option>
+                              <option value="Yes">Yes</option>
+                            </select>
+                        </div>
+
+
+                        <p class="text-danger mt-4">Do you have any medication allergies?</p>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="med-allergy" id="med-allergy1" value="daily">
+                            <label class="form-check-label" for="med-allergy1">Daily</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="med-allergy" id="med-allergy2" value="weekly">
+                            <label class="form-check-label" for="med-allergy2">Weekly</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="med-allergy" id="med-allergy3" value="monthly">
+                            <label class="form-check-label" for="med-allergy3">Monthly</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="med-allergy" id="med-allergy4" value="occassionaly">
+                            <label class="form-check-label" for="med-allergy4">Occassionally</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="med-allergy" id="med-allergy5" value="never">
+                            <label class="form-check-label" for="med-allergy5">Never</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary my-5 d-block">Submit</button>
+                      </form>
+                      
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section>
+        <div class="container my-4">
+                <div class="row" id="row">
+                    
+                </div>
+            </div>
+                
+    </section> -->
+    
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col py-4">
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                    <p>Our Solution</p>
+                    <p>Privacy Policies</p>
+                </div>
+                <div class="col py-4">
+                    <p>Get in touch HMS</p>
+                    <p>Lekki Phase Decagon</p>
+                    <p>Lagos</p>
+                </div>
+                <div class="col py-4">
+                    <p>bibiaremieye@gmail.com</p>
+                    <p>+2348165025176</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+
+    <!-- bootstrap script -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+    $('.carousel').carousel({
+        interval: 2000
+    })
+</script>
+<script src="main.js"></script>
+</body>
+</html>

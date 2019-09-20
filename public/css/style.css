@@ -1,0 +1,36 @@
+#menu{
+    display: flex;
+    justify-content: space-between
+}
+
+.myNavStyle{
+    background: teal;
+}
+
+.navbar-brand{
+    justify-self: flex-start;
+}
+
+.navbarNavAltMarkup{
+    justify-self: flex-end;
+}
+
+.image{
+    background: url(/img/img1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+/* Modal style */
+.modal-header{
+    background: cyan;
+    color: white;
+}
+
+footer{
+    background: teal;
+    color: white;
+}
